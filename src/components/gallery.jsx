@@ -4,24 +4,24 @@ export const Gallery = (props) => {
   return (
     <div id='portfolio' >
       <div className='container'>
-        <div className='row'>
-        <div className="col-xs-12 col-md-6">
+        <div className='row '>
+        <div className="col-xs-12 col-md-6 align-items-end" >
             <div className='portfolio-items' style={{maxWidth:'100%'}}>
               {props.data
                 ? props.data.map((d, i) => (
-                  <div key={`${d.title}-${i}`} className='col-sm-6 col-md-4 col-lg-4'>
+                  <div key={`${d.title}-${i}`} className='col-sm-6 col-xs-4 col-md-4 col-lg-4'>
                     <Image title={d.title}  smallImage={d.smallImage} />
                   </div>
                 ))
                 : 'Loading...'}
             </div>
           </div>
-          <div className="col-xs-12 col-md-6" style={{marginTop:'24%'}}>
+          <div class="col-xs-12 col-md-6 align-items-end gallery-text" >
               {/* <video autoplay muted loop  >
                 <source src="https://www.w3schools.com/html/mov_bbb.mp4" type='video/mp4'/>
               </video> */}
               
-                  <h1 style={{ color: 'black', textAlign: 'left'}}>
+                  <h1 style={{ color: 'black', textAlign: 'left' }}>
                   Immediate Utility, Safe House & Companion NFT
                     <span></span>
                   </h1>

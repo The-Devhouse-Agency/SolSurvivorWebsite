@@ -1,11 +1,7 @@
-import { useState } from 'react'
-import emailjs from 'emailjs-com'
+import {ReactComponent as Discord} from '../images/discord.svg';
+import {ReactComponent as Twitter} from '../images/twitter.svg';
 
-const initialState = {
-  name: '',
-  email: '',
-  message: '',
-}
+
 export const Contact = (props) => {
 
   return (
@@ -18,14 +14,10 @@ export const Contact = (props) => {
               <div className='social'>
                 <ul>
                   <li>
-                    <a href={props.data ? props.data.twitter : '/'}>
-                      <i className='fa fa-twitter'></i>
-                    </a>
+                    <Discord/>
                   </li>
                   <li>
-                    <a href={props.data ? props.data.youtube : '/'}>
-                      <i className='fa fa-youtube'></i>
-                    </a>
+                    <Twitter/>
                   </li>
                 </ul>  
                 <div className='container text-center'>

@@ -20,8 +20,16 @@ h1 {
 }
 h2,
 h3 h4 {
-  font-family: "Raleway", sans-serif;
+  font-family: "Open Sans";
+  text-align: left;
+  color: rgb(0, 0, 0);
+  font-size: 48px;
+  font-weight: 800;
+  text-transform: uppercase;
+  margin-top: -50px;
+  margin-bottom: 10px;
 }
+
 h2 {
   text-transform: uppercase;
   margin: 0 0 20px;
@@ -45,7 +53,19 @@ h5 {
   line-height: 20px;
 }
 p {
-  font-size: 15px;
+  font-size: 20px;
+}
+p.timeline {
+  font-size: 20px;
+}
+h3.feature-text {
+  font-family: "Open Sans";
+  text-align: left !important;
+  color: rgb(0, 0, 0);
+  font-size: 28px;
+  font-weight: 800;
+  text-transform: uppercase;
+
 }
 p.intro {
   margin: 12px 0 0;
@@ -226,11 +246,7 @@ a:focus,
 }
 .video {
   padding: 0;
-  background-color: #e5e5e5;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;
+
   z-index: -1; /* Causes the video to sit behind your heading */
   width: 100%;
 }
@@ -254,6 +270,10 @@ a:focus,
 
 .intro {
   /* background: rgba(0, 0, 0, 0.2); */
+}
+.gallery-text {
+  margin-top: 21%;
+  margin-bottom: 0;
 }
 .overlay {
   display: table;
@@ -354,13 +374,30 @@ header .intro-text {
   -moz-transform: scale(1.2);
   -ms-transform: scale(1.2);
 }
+.svg2 {
+  margin-top: -50px;
+  transform: scale(.5);
+  -webkit-transform: scale(.5);
+  -moz-transform: scale(.5);
+  -ms-transform: scale(.5);
+}
 #roadmap {
   margin-top: -150px;
+  margin-left: auto;
 }
 .timeline {
   display: flex;
   justify-content: center ;
 }
+.timeline-text{
+  font-family: "Open Sans";
+} 
+h3 .timeline-text{
+  font-family: "Open Sans";
+  font-size: 22px !important;
+  font-weight: 800px !important;
+}
+
 /* Features Section */
 #features {
   background: #f6f6f6;
@@ -678,9 +715,7 @@ label {
   margin-right: 10px;
 }
 #contact .social {
-  border-top: 1px solid rgba(255, 255, 255, 0.15);
-  padding-top: 50px;
-  margin-top: 50px;
+  padding-top: 0px;
   text-align: center;
 }
 #contact .social ul li {
@@ -720,5 +755,65 @@ label {
 @media (max-width: 768px) {
   #about img {
     margin: 50px 0;
+  }
+  .timeline-text{
+    text-align: left !important;
+  }
+  h3 {
+    font-size: 22px !important;
+    font-weight: 700 !important;
+  }
+  #roadmap {
+    margin-top: 20px;
+    margin-left: 3%;
+  }
+  #mobile-roadmap {
+    margin-top: -45px;
+    width: 85%;
+    transform: translate(52px, 550px);
+    -webkit-transform: translate(52px, 550px);
+    -moz-transform: translate(52px, 550px);
+    -ms-transform: translate(52px, 550px);
+  }
+
+  #mobile-roadmap2 {
+    width: 85%;
+    transform: translate(52px, -2px);
+    -webkit-transform: translate(52px,  -2px);
+    -moz-transform: translate(52px, -2px);
+    -ms-transform: translate(52px, -2px);
+    font-size: 20px !important;
+  }
+  #mobile-row {
+    margin-top: -455px;
+  }
+  #mobile-final {
+    margin-top: -250px;
+  }
+  .videoHeader {
+    position: relative;
+    overflow-x: hidden;
+
+  }
+  .video {
+    width: 250%;
+    margin-left: 50%;
+    transform: translateX(-50%);
+  }
+  .logo {
+    position: absolute;
+
+    width: 60%;
+    top: 90%;
+    left: 22%;
+    -webkit-transform: translateY(-160%);
+    -moz-transform: translateY(-160%);
+    -ms-transform: translateY(-160%);
+    transform: translateY(-160%);
+    
+  }
+
+  header .intro-text {
+    padding-top: 150px;
   }
 }

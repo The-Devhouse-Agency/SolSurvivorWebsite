@@ -30,11 +30,8 @@ const App = () => {
     <div>
       <BackgroundVideo/>      
       <Header data={landingPageData.Header} />
-    
       <Gallery data={landingPageData.Gallery}/>
- 
-      <Services data={landingPageData.Services} />
-      
+      <Features />
       <Roadmap />
       <Contact data={landingPageData.Contact} />
     </div>
