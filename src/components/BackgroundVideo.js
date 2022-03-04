@@ -1,17 +1,19 @@
 import React from 'react';
-import VideoSource from "../images/Environment_Zombie_EarlyCapture.mp4"
-
-const BackgroundVideo = ({ videoSource, children, blur }) => {
+import VideoSource from "../images/trailer.mp4"
+import Logo from "../images/logo1.png"
+const BackgroundVideo = ({ videoSource, children }) => {
   // const video = React.useRef(null);
   // React.useEffect(() => {
   //   console.log(video.current.style);
   //   video.current.style.filter = "blur(10px)";
-  videoSource = "public\img\Environment_Zombie_EarlyCapture.mp4"
+ 
+ 
   // }, []);
   return (
       <>
+     
       <div className='videoHeader'>
-
+        
       
         <video
         //   style={{ filter: `blur(2px)`, WebkitFilter: `blur(2px)` }}
@@ -25,9 +27,14 @@ const BackgroundVideo = ({ videoSource, children, blur }) => {
           <source src={VideoSource} type="video/mp4" />
             Your browser does not support the video tag.
       </video>
-          <div className='logo'></div>
-        {children}
+      <img
+      src={Logo}
+      className='img-responsive logo'
+      alt="Sol Survivor"
+    />
+    
         </div>
+        
       {/* <span id="video-bottom"></span> */}
     </>
   )
