@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/SolSurvivorWebsite/static/css/main.0a1fb32f.chunk.css",
-    "main.js": "/SolSurvivorWebsite/static/js/main.fb85b85f.chunk.js",
-    "main.js.map": "/SolSurvivorWebsite/static/js/main.fb85b85f.chunk.js.map",
+    "main.js": "/SolSurvivorWebsite/static/js/main.519a5400.chunk.js",
+    "main.js.map": "/SolSurvivorWebsite/static/js/main.519a5400.chunk.js.map",
     "runtime-main.js": "/SolSurvivorWebsite/static/js/runtime-main.c881a5c6.js",
     "runtime-main.js.map": "/SolSurvivorWebsite/static/js/runtime-main.c881a5c6.js.map",
     "static/js/2.0ad4bec0.chunk.js": "/SolSurvivorWebsite/static/js/2.0ad4bec0.chunk.js",
@@ -24,6 +24,6 @@
     "static/js/runtime-main.c881a5c6.js",
     "static/js/2.0ad4bec0.chunk.js",
     "static/css/main.0a1fb32f.chunk.css",
-    "static/js/main.fb85b85f.chunk.js"
+    "static/js/main.519a5400.chunk.js"
   ]
 }
