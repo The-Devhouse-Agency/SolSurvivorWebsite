@@ -21,7 +21,7 @@ export const Roadmap = (props) => {
 
               <div id="mobile-roadmap" class="col-md-5 order-sm-2 mobile-roadmap">
                   <h3 className="timeline-text" style={{textAlign:'right'}}>Playable Beta at Release, Immediate Utility, Companion Mint, Token</h3>
-                  <p className="timeline-text" style={{textAlign:'right'}}>A full, playable beta version of Sol Survivor will be released shortly after minting completes. This beta will be the base the SurvivorDAO uses to build the game full from! The beta will be continuously updated as bugs are fixed in a gamified, and rewarding bug finding system. Holders will be able to play, report bugs, and do it in a fun way where they're rewarded for it! </p>
+                  <p className="timeline-text" style={{textAlign:'right'}}>A full, playable version of Sol Survivor will be released shortly after minting completes. This beta will be the base the SurvivorDAO uses to build the game full from! The beta will be continuously updated as bugs are fixed in a gamified, and rewarding bug finding system. Holders will be able to play, report bugs, and do it in a fun way where they're rewarded for it! </p>
               </div>
 
               <div class="col-md-2 col-xs-2 order-2 order-sm-1">
