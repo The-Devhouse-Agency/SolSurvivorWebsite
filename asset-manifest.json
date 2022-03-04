@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/SolSurvivorWebsite/static/css/main.0a1fb32f.chunk.css",
+    "main.js": "/SolSurvivorWebsite/static/js/main.fb85b85f.chunk.js",
+    "main.js.map": "/SolSurvivorWebsite/static/js/main.fb85b85f.chunk.js.map",
+    "runtime-main.js": "/SolSurvivorWebsite/static/js/runtime-main.c881a5c6.js",
+    "runtime-main.js.map": "/SolSurvivorWebsite/static/js/runtime-main.c881a5c6.js.map",
+    "static/js/2.0ad4bec0.chunk.js": "/SolSurvivorWebsite/static/js/2.0ad4bec0.chunk.js",
+    "static/js/2.0ad4bec0.chunk.js.map": "/SolSurvivorWebsite/static/js/2.0ad4bec0.chunk.js.map",
+    "index.html": "/SolSurvivorWebsite/index.html",
+    "static/css/main.0a1fb32f.chunk.css.map": "/SolSurvivorWebsite/static/css/main.0a1fb32f.chunk.css.map",
+    "static/js/2.0ad4bec0.chunk.js.LICENSE.txt": "/SolSurvivorWebsite/static/js/2.0ad4bec0.chunk.js.LICENSE.txt",
+    "static/media/Beta.81b45406.svg": "/SolSurvivorWebsite/static/media/Beta.81b45406.svg",
+    "static/media/Ellipse.bbf76a3f.svg": "/SolSurvivorWebsite/static/media/Ellipse.bbf76a3f.svg",
+    "static/media/Group10.dae28ae1.svg": "/SolSurvivorWebsite/static/media/Group10.dae28ae1.svg",
+    "static/media/Group8.1cb2cec4.svg": "/SolSurvivorWebsite/static/media/Group8.1cb2cec4.svg",
+    "static/media/Line1.b9341efe.svg": "/SolSurvivorWebsite/static/media/Line1.b9341efe.svg",
+    "static/media/discord.9b29b433.svg": "/SolSurvivorWebsite/static/media/discord.9b29b433.svg",
+    "static/media/logo1.77e3af84.png": "/SolSurvivorWebsite/static/media/logo1.77e3af84.png",
+    "static/media/trailer.ea08798b.mp4": "/SolSurvivorWebsite/static/media/trailer.ea08798b.mp4",
+    "static/media/twitter.bbf9e476.svg": "/SolSurvivorWebsite/static/media/twitter.bbf9e476.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c881a5c6.js",
+    "static/js/2.0ad4bec0.chunk.js",
+    "static/css/main.0a1fb32f.chunk.css",
+    "static/js/main.fb85b85f.chunk.js"
+  ]
+}
