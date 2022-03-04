@@ -24,7 +24,7 @@ const App = () => {
     <div>
       <BackgroundVideo/>      
       <Header  />
-      <Gallery />
+      <Gallery data={landingPageData.Gallery}/>
       <Features />
       <Roadmap />
       <Contact  />
