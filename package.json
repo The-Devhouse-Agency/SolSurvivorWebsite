@@ -1,5 +1,6 @@
 {
-  "name": "landingpage-react-template",
+  "name": "Sol Survivor",
+  "homepage": "https://The-Devhouse-Agency.github.io/SolSurvivorWebsite",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
@@ -12,6 +13,8 @@
     "smooth-scroll": "^16.1.3"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
