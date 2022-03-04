@@ -7,44 +7,16 @@ const initialState = {
   message: '',
 }
 export const Contact = (props) => {
-  const [{ name, email, message }, setState] = useState(initialState)
 
-  const handleChange = (e) => {
-    const { name, value } = e.target
-    setState((prevState) => ({ ...prevState, [name]: value }))
-  }
-  const clearState = () => setState({ ...initialState })
-
-  const handleSubmit = (e) => {
-    e.preventDefault()
-    console.log(name, email, message)
-    emailjs
-      .sendForm(
-        'YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', e.target, 'YOUR_USER_ID'
-      )
-      .then(
-        (result) => {
-          console.log(result.text)
-          clearState()
-        },
-        (error) => {
-          console.log(error.text)
-        }
-      )
-  }
   return (
     <div>
       <div id='contact'>
         <div className='container'>
-          <div className='col-md-12'>
+   
             <div className='row'>
+              
               <div className='social'>
                 <ul>
-                  <li>
-                    <a href={props.data ? props.data.facebook : '/'}>
-                      <i className='fa fa-facebook'></i>
-                    </a>
-                  </li>
                   <li>
                     <a href={props.data ? props.data.twitter : '/'}>
                       <i className='fa fa-twitter'></i>
@@ -55,17 +27,16 @@ export const Contact = (props) => {
                       <i className='fa fa-youtube'></i>
                     </a>
                   </li>
-                </ul>  <div className='container text-center'>
+                </ul>  
                 <div className='container text-center'>
-                  <p>
-                  2022 The Devhouse Agency. All rights reserved.
+                  <p>2022 The Devhouse Agency. All rights reserved.
                   </p>
                 </div>
               
-                </div>
+           
               </div>
             </div>
-          </div>
+        
         </div>
       </div>
 

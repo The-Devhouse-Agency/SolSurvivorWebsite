@@ -4,13 +4,14 @@ import HeaderLogo from "../images/logo1.png"
 
 export const Header = (props) => {
   return (
+    
     <header id='header'>
       <div className='intro'>
         <div className='overlay'>
       
           <div className='container' >
             <div  className='row'>
-              <div className='col-md-8 col-md-offset-6 intro-text'>
+              <div className='col-md-8 col-md-offset-5 intro-text'>
             {/* <video autoplay muted loop  >
               <source src="https://www.w3schools.com/html/mov_bbb.mp4" type='video/mp4'/>
             </video> */}

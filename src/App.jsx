@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { Navigation } from "./components/navigation";
 import { Header } from "./components/header";
+import { Roadmap } from "./components/roadmap";
 import { Features } from "./components/features";
 import { About } from "./components/about";
 import { Services } from "./components/services";
@@ -29,13 +30,13 @@ const App = () => {
     <div>
       <BackgroundVideo/>      
       <Header data={landingPageData.Header} />
-      <div className='col-md-8 col-md-offset-1 intro-text'>
+    
       <Gallery data={landingPageData.Gallery}/>
-        </div>
+       
       {/* <Features data={landingPageData.Features} /> */}
-      <About data={landingPageData.About} />
+      {/* <About data={landingPageData.About} /> */}
       <Services data={landingPageData.Services} />
- 
+      <Roadmap />
       <Contact data={landingPageData.Contact} />
     </div>
   );
