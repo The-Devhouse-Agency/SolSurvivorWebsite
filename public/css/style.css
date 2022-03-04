@@ -340,10 +340,26 @@ header .intro-text {
   padding-top: 250px;
   padding-bottom: 50px;
 
+  text-align: right;
+}
+.intro-text2 {
+  padding-top: 100px;
+  padding-bottom: 50px;
+
   text-align: center;
+}
+.svg {
+  transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -ms-transform: scale(1.2);
 }
 #roadmap {
   margin-top: -150px;
+}
+.timeline {
+  display: flex;
+  justify-content: center ;
 }
 /* Features Section */
 #features {

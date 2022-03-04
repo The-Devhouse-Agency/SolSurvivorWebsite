@@ -32,10 +32,9 @@ const App = () => {
       <Header data={landingPageData.Header} />
     
       <Gallery data={landingPageData.Gallery}/>
-       
-      {/* <Features data={landingPageData.Features} /> */}
-      {/* <About data={landingPageData.About} /> */}
+ 
       <Services data={landingPageData.Services} />
+      
       <Roadmap />
       <Contact data={landingPageData.Contact} />
     </div>
