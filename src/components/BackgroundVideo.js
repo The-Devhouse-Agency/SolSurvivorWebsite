@@ -28,7 +28,7 @@ const BackgroundVideo = ({ videoSource, children }) => {
         
         className='video' >
           {/* TODO make it accept multiple media types */}
-          <source src={VideoSource} type="video/mp4" />
+          <source src="https://ampcreative.s3.us-east-2.amazonaws.com/Image_from_iOS__1__AdobeCreativeCloudExpress.mp4" type="video/mp4" />
             Your browser does not support the video tag.
       </video>
       <img
