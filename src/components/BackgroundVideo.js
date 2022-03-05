@@ -18,7 +18,7 @@ const BackgroundVideo = ({ videoSource, children }) => {
       
         <video
         //   style={{ filter: `blur(2px)`, WebkitFilter: `blur(2px)` }}
-        playsinline
+        playsInline
         preload="auto" 
         autoplay="autoplay"
         loop="loop"
