@@ -1,6 +1,7 @@
 import React from 'react';
 import VideoSource from "../images/trailer.mp4"
 import Logo from "../images/logo1.png"
+import Poster from "../images/videoPoster.PNG"
 const BackgroundVideo = ({ videoSource, children }) => {
   // const video = React.useRef(null);
   // React.useEffect(() => {
@@ -18,8 +19,10 @@ const BackgroundVideo = ({ videoSource, children }) => {
         <video
         //   style={{ filter: `blur(2px)`, WebkitFilter: `blur(2px)` }}
         playsinline
-        autoPlay="autoplay"
+        preload="auto" 
+        autoplay="autoplay"
         loop="loop"
+        poster={Poster}
         muted
         // ref={video}
         
