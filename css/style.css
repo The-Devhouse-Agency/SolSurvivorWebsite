@@ -353,7 +353,7 @@ a:focus,
   font-weight: 300;
   line-height: 30px;
   margin: 0 auto;
-  margin-bottom: 60px;
+  margin-bottom: 80px;
 }
 
 header .intro-text {
@@ -752,7 +752,7 @@ label {
   border-bottom: 2px solid #608dfd;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   #about img {
     margin: 50px 0;
   }
@@ -763,6 +763,7 @@ label {
     font-size: 22px !important;
     font-weight: 700 !important;
   }
+
   #roadmap {
     margin-top: 20px;
     margin-left: 3%;
@@ -770,18 +771,28 @@ label {
   #mobile-roadmap {
     margin-top: -45px;
     width: 85%;
-    transform: translate(52px, 550px);
-    -webkit-transform: translate(52px, 550px);
-    -moz-transform: translate(52px, 550px);
-    -ms-transform: translate(52px, 550px);
+    transform: translate(52px, 475px);
+    -webkit-transform: translate(52px, 475px);
+    -moz-transform: translate(52px, 475px);
+    -ms-transform: translate(52px, 475px);
+  }
+  .roadmap p {
+    font-family: "Open Sans";
+    color: #fff;
+    text-align: left;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 30px;
+    margin: 0 auto;
+    margin-bottom: 80px;
   }
 
   #mobile-roadmap2 {
     width: 85%;
-    transform: translate(52px, -2px);
-    -webkit-transform: translate(52px,  -2px);
-    -moz-transform: translate(52px, -2px);
-    -ms-transform: translate(52px, -2px);
+    transform: translate(52px, -12px);
+    -webkit-transform: translate(52px,  -12px);
+    -moz-transform: translate(52px,-122px);
+    -ms-transform: translate(52px, -12px);
     font-size: 20px !important;
   }
   #mobile-row {
