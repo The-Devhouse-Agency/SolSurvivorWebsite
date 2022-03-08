@@ -16,7 +16,7 @@ const BackgroundVideo = ({ videoSource, children }) => {
       <div className='videoHeader'>
       <video
          className='video'
-         muted autoPlay={true} playsInline loop 
+         muted autoPlay playsInline loop preload='auto' controls = ''
          poster={Poster}
           >
            <source type="video/mp4" src="https://ampcreative.s3.us-east-2.amazonaws.com/Image_from_iOS__1__AdobeCreativeCloudExpress.mp4"  />
