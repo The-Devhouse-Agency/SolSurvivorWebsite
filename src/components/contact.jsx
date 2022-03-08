@@ -14,14 +14,18 @@ export const Contact = (props) => {
               <div className='social'>
                 <ul>
                   <li>
-                    <Discord/>
+                    <a href="https://www.discord.gg/SERs">
+                      <Discord/>
+                    </a>
                   </li>
                   <li>
+                    <a href="https://www.twitter.com/SolSurvivorGame">
                     <Twitter/>
+                    </a>
                   </li>
                 </ul>  
                 <div className='container text-center'>
-                  <p>2022 The Devhouse Agency. All rights reserved.
+                <p>2022 The Devhouse Agency. All rights reserved.
                   </p>
                 </div>
               
