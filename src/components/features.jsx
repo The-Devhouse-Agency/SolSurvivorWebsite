@@ -23,8 +23,8 @@ export const Features = (props) => {
                     
                   <h3  className="feature-text"> Playable Beta at Release</h3>
                   <ul>
-                    <li><p className="timeline-text" > • Full playable Sol Survivor game beta will be live after minting.</p></li>
-                    <li><p className="timeline-text" > • Horde Style Gameplay: Enemy’s will spawn in waves and it will be up to the player to stay alive as long as possible while killing as many enemies as they can before losing all of their health..</p></li>
+                    <li><p className="feature-text" > • Full playable Sol Survivor game beta will be live after minting.</p></li>
+                    <li><p className="feature-text" > • Horde Style Gameplay: Enemy’s will spawn in waves and it will be up to the player to stay alive as long as possible while killing as many enemies as they can before losing all of their health..</p></li>
                   </ul>
 
 
@@ -50,8 +50,8 @@ export const Features = (props) => {
 
         
                   <ul>
-                    <li><p className="timeline-text" > • Your Survivors can be staked into the safe house under a time-lock to accumulate 5 $SER each per day, and return with a companion!</p></li>
-                    <li><p className="timeline-text" > • The $SER token will be integrated into the full SERLabs ecosystem, including use in the SERcade, etc.</p></li>
+                    <li><p className="feature-text" > • Your Survivors can be staked into the safe house under a time-lock to accumulate 5 $SER each per day, and return with a companion!</p></li>
+                    <li><p className="feature-text" > • The $SER token will be integrated into the full SERLabs ecosystem, including use in the SERcade, etc.</p></li>
                   </ul>
                 </div>
             </div>
@@ -71,13 +71,13 @@ export const Features = (props) => {
                 <div class="col-md-10 col-xs-8">
                     
                   <h3  className="feature-text">Sol Survivor Comic Series, etc</h3>
-                  <p className="timeline-text" >Our team has began work on issue #1 of the Sol Survivor comic series for a Q2 release, the comic will feature:</p>
+                  <p className="feature-text" >Our team has began work on issue #1 of the Sol Survivor comic series for a Q2 release, the comic will feature:</p>
                   <ul>
-                    <li><p className="timeline-text" > • Lore releases, and sneak peaks of the future of the game released in the comic book issues as the story, and game develops via DAO votes on the future of the Sol Survivor game. 
+                    <li><p className="feature-text" > • Lore releases, and sneak peaks of the future of the game released in the comic book issues as the story, and game develops via DAO votes on the future of the Sol Survivor game. 
 
 </p></li>
-                    <li><p className="timeline-text" > • All comic book issues will be tradable NFT comic books.</p></li>
-                    <li><p className="timeline-text" > • Sol Survivor comics will be be stakable, with the future options to burn for physical copies - or combine multiple issues and unlock something... else.</p></li>
+                    <li><p className="feature-text" > • All comic book issues will be tradable NFT comic books.</p></li>
+                    <li><p className="feature-text" > • Sol Survivor comics will be be stakable, with the future options to burn for physical copies - or combine multiple issues and unlock something... else.</p></li>
                   </ul>
                 </div>
             </div>

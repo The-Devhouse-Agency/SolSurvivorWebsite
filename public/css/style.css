@@ -66,6 +66,12 @@ h3.feature-text {
   font-weight: 800;
   text-transform: uppercase;
 
+
+}
+p.feature-text {
+  font-family: "Open Sans";
+  text-align: left !important;
+  color: rgb(0, 0, 0);
 }
 p.intro {
   margin: 12px 0 0;
