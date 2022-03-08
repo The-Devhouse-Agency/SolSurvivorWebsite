@@ -1,6 +1,6 @@
 {
   "name": "SolSurvivor",
-  "homepage": "https://The-Devhouse-Agency-Sol-Survivor.github.io",
+  "homepage": "https://solsurvivor.co",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
