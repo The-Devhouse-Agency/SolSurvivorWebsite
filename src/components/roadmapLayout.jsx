@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Roadmap } from './roadmap';
+import { RoadmapMobile } from './roadmapMobile';
 
 export default class RoadmapLayout extends Component {
   constructor(props) {
@@ -9,13 +10,13 @@ export default class RoadmapLayout extends Component {
 
   componentDidMount() {
     const handler = e => this.setState({matches: e.matches});
-    window.matchMedia("(min-width: 820px)").addEventListener('change', handler);
+    window.matchMedia("(min-width: 992px)").addEventListener('change', handler);
   }
   render() {
     return (
       <div >
       {this.state.matches && (<Roadmap/>)}
-      {!this.state.matches && (<h3>Small Screen</h3>)}
+      {!this.state.matches && (<RoadmapMobile/>)}
       </div>
     );
   }

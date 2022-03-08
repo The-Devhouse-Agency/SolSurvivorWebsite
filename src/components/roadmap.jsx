@@ -17,14 +17,14 @@ export const Roadmap = (props) => {
           </div>
             
             <div className='container ' style={{marginBottom:'50px'}} >
-              <div id="mobile-row" class="row justify-content-md-center justify-content-xs-center">
+              <div  class="row justify-content-md-center ">
 
-              <div id="mobile-roadmap" class="col-md-5 order-sm-2 mobile-roadmap">
+              <div id="mobile-roadmap" class="col-md-5 ">
                   <h3 className="timeline-text" style={{textAlign:'right'}}>Playable Beta at Release, Immediate Utility, Companion Mint, Token</h3>
                   <p className="timeline-text" style={{textAlign:'right'}}>A full, playable version of Sol Survivor will be released shortly after minting completes. This beta will be the base the SurvivorDAO uses to build the game full from! The beta will be continuously updated as bugs are fixed in a gamified, and rewarding bug finding system. Holders will be able to play, report bugs, and do it in a fun way where they're rewarded for it! </p>
               </div>
 
-              <div class="col-md-2 col-xs-2 order-2 order-sm-1">
+              <div class="col-md-2 ">
                 <div class="row timeline">
                   <Ellipse className="svg" />
                 </div >
@@ -33,7 +33,7 @@ export const Roadmap = (props) => {
                 </div>
               </div>
 
-              <div class="col-md-5 col-xs-0 order-3">
+              <div class="col-md-5 ">
               
               </div>
               </div>
@@ -42,11 +42,11 @@ export const Roadmap = (props) => {
 
               <div class="row justify-content-md-center">
                 
-                <div class="col-md-5 col-xs-0">
+                <div class="col-md-5 ">
                 </div>
 
 
-                <div class="col-md-2 col-xs-2 justify-content-center">
+                <div class="col-md-2  justify-content-center">
                   <div className="row timeline">
                     <Ellipse className='svg'/>
                   </div>

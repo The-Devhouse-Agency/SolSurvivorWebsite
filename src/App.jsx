@@ -27,7 +27,7 @@ const App = () => {
       <Header  />
       <Gallery data={landingPageData.Gallery}/>
       <Features />
-      <Roadmap />
+      <RoadmapLayout />
       <Contact  />
     </div>
   );
