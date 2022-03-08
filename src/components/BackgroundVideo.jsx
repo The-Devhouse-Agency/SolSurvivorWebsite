@@ -19,7 +19,7 @@ const BackgroundVideo = ({ videoSource, children }) => {
          muted autoPlay playsInline loop preload='auto' controls = ''
          poster={Poster}
           >
-           <source type="video/mp4" src="https://ampcreative.s3.us-east-2.amazonaws.com/Image_from_iOS__1__AdobeCreativeCloudExpress.mp4"  />
+           <source type="video/mp4" src="https://devhouse-web-images.s3.us-east-2.amazonaws.com/SolSurvivorVideo.mp4"  />
              Your browser does not support the video tag.
        </video>
 
