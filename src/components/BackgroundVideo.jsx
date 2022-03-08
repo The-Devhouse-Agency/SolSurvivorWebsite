@@ -14,16 +14,16 @@ const BackgroundVideo = ({ videoSource, children }) => {
       <>
      
       <div className='videoHeader'>
-      <div dangerouslySetInnerHTML={{ __html: `
-        <video
-          loop
-          muted
-          autoplay
-          playsinline
-          src="https://devhouse-web-images.s3.us-east-2.amazonaws.com/SolSurvivorVideo.mp4"
-          class="video"
-        />,
-      ` }}></div>
+      <video
+         className='video'
+         muted autoPlay={true} playsInline loop 
+         poster={Poster}
+          >
+           <source type="video/mp4" src="https://ampcreative.s3.us-east-2.amazonaws.com/Image_from_iOS__1__AdobeCreativeCloudExpress.mp4"  />
+             Your browser does not support the video tag.
+       </video>
+
+
       
 
       <img
