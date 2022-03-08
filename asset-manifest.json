@@ -1,30 +1,30 @@
 {
   "files": {
-    "main.css": "/SolSurvivorWebsite/static/css/main.0a1fb32f.chunk.css",
-    "main.js": "/SolSurvivorWebsite/static/js/main.e8e22298.chunk.js",
-    "main.js.map": "/SolSurvivorWebsite/static/js/main.e8e22298.chunk.js.map",
-    "runtime-main.js": "/SolSurvivorWebsite/static/js/runtime-main.c881a5c6.js",
-    "runtime-main.js.map": "/SolSurvivorWebsite/static/js/runtime-main.c881a5c6.js.map",
-    "static/js/2.2f057ab8.chunk.js": "/SolSurvivorWebsite/static/js/2.2f057ab8.chunk.js",
-    "static/js/2.2f057ab8.chunk.js.map": "/SolSurvivorWebsite/static/js/2.2f057ab8.chunk.js.map",
-    "index.html": "/SolSurvivorWebsite/index.html",
-    "static/css/main.0a1fb32f.chunk.css.map": "/SolSurvivorWebsite/static/css/main.0a1fb32f.chunk.css.map",
-    "static/js/2.2f057ab8.chunk.js.LICENSE.txt": "/SolSurvivorWebsite/static/js/2.2f057ab8.chunk.js.LICENSE.txt",
-    "static/media/Beta.81b45406.svg": "/SolSurvivorWebsite/static/media/Beta.81b45406.svg",
-    "static/media/Ellipse.bbf76a3f.svg": "/SolSurvivorWebsite/static/media/Ellipse.bbf76a3f.svg",
-    "static/media/Group10.dae28ae1.svg": "/SolSurvivorWebsite/static/media/Group10.dae28ae1.svg",
-    "static/media/Group8.1cb2cec4.svg": "/SolSurvivorWebsite/static/media/Group8.1cb2cec4.svg",
-    "static/media/Line1.b9341efe.svg": "/SolSurvivorWebsite/static/media/Line1.b9341efe.svg",
-    "static/media/discord.9b29b433.svg": "/SolSurvivorWebsite/static/media/discord.9b29b433.svg",
-    "static/media/logo1.77e3af84.png": "/SolSurvivorWebsite/static/media/logo1.77e3af84.png",
-    "static/media/trailer.ea08798b.mp4": "/SolSurvivorWebsite/static/media/trailer.ea08798b.mp4",
-    "static/media/twitter.bbf9e476.svg": "/SolSurvivorWebsite/static/media/twitter.bbf9e476.svg",
-    "static/media/videoPoster.a4788753.PNG": "/SolSurvivorWebsite/static/media/videoPoster.a4788753.PNG"
+    "main.css": "/static/css/main.0a1fb32f.chunk.css",
+    "main.js": "/static/js/main.1ffdc427.chunk.js",
+    "main.js.map": "/static/js/main.1ffdc427.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.cabddd2e.js",
+    "runtime-main.js.map": "/static/js/runtime-main.cabddd2e.js.map",
+    "static/js/2.2f057ab8.chunk.js": "/static/js/2.2f057ab8.chunk.js",
+    "static/js/2.2f057ab8.chunk.js.map": "/static/js/2.2f057ab8.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.0a1fb32f.chunk.css.map": "/static/css/main.0a1fb32f.chunk.css.map",
+    "static/js/2.2f057ab8.chunk.js.LICENSE.txt": "/static/js/2.2f057ab8.chunk.js.LICENSE.txt",
+    "static/media/Beta.81b45406.svg": "/static/media/Beta.81b45406.svg",
+    "static/media/Ellipse.bbf76a3f.svg": "/static/media/Ellipse.bbf76a3f.svg",
+    "static/media/Group10.dae28ae1.svg": "/static/media/Group10.dae28ae1.svg",
+    "static/media/Group8.1cb2cec4.svg": "/static/media/Group8.1cb2cec4.svg",
+    "static/media/Line1.b9341efe.svg": "/static/media/Line1.b9341efe.svg",
+    "static/media/discord.9b29b433.svg": "/static/media/discord.9b29b433.svg",
+    "static/media/logo1.77e3af84.png": "/static/media/logo1.77e3af84.png",
+    "static/media/trailer.ea08798b.mp4": "/static/media/trailer.ea08798b.mp4",
+    "static/media/twitter.bbf9e476.svg": "/static/media/twitter.bbf9e476.svg",
+    "static/media/videoPoster.a4788753.PNG": "/static/media/videoPoster.a4788753.PNG"
   },
   "entrypoints": [
-    "static/js/runtime-main.c881a5c6.js",
+    "static/js/runtime-main.cabddd2e.js",
     "static/js/2.2f057ab8.chunk.js",
     "static/css/main.0a1fb32f.chunk.css",
-    "static/js/main.e8e22298.chunk.js"
+    "static/js/main.1ffdc427.chunk.js"
   ]
 }
