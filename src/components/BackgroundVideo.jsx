@@ -22,7 +22,7 @@ const BackgroundVideo = ({ videoSource, children }) => {
            <source type="video/mp4" src="https://devhouse-web-images.s3.us-east-2.amazonaws.com/SolSurvivorVideo.mp4"  />
              Your browser does not support the video tag.
        </video>
-
+       <a href="https://serlist.solsurvivor.co/" rel="noopener noreferrer" target="_blank" className="btn btn-primary play-now">PLAY NOW</a>
 
       
 
