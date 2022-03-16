@@ -15,7 +15,7 @@ h1 {
 	font-size: 48px;
 	font-weight: 800;
 	text-transform: uppercase;
-	margin-top: -50px;
+	margin-top: 0px;
 	margin-bottom: 10px;
 }
 h2,
@@ -265,7 +265,7 @@ a:focus,
 	position: absolute;
 
 	width: 40%;
-	top: 85.5%;
+	top: 90%;
 	left: 31%;
 	-webkit-transform: translateY(-110%);
 	-moz-transform: translateY(-110%);
@@ -288,24 +288,28 @@ a:focus,
 	font-weight: 800;
 	display: inline-block;
 	font-size: 16px;
+	border-radius: 0;
 	margin: 4px 2px;
 	transition-duration: 0.4s;
 	cursor: pointer;
 	border: none;
-	background-color: #3470BE; 
-	color: black; 
+	background-color: #3470be;
+	color: white;
 }
 .play-now:hover {
-	background-color: #5d86bc;
-	color: white;
-   }
+	background-color: #5896e7;
+	color: black;
+}
 
 .intro {
 	/* background: rgba(0, 0, 0, 0.2); */
 }
+.changelog {
+	margin: 100px 0 100px 0;
+}
 .gallery-text {
 	font-family: "Open Sans";
-	margin-top: 254px;
+	margin-top: 200px;
 }
 p.gallery-text {
 	margin-top: 21%;
