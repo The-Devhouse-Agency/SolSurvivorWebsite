@@ -1,7 +1,3 @@
-// import Video from "../../public/img/Environment_Zombie_EarlyCapture.mp4"
-import BackgroundVideo from "./BackgroundVideo";
-import HeaderLogo from "../images/logo1.png";
-
 export const Header = (props) => {
 	return (
 		<header id="header">
