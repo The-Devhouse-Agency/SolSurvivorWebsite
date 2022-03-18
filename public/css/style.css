@@ -323,7 +323,7 @@ p.gallery-text {
 	display: table;
 	width: 100%;
 	padding: 0;
-	background: url(../img/header2.png) center center no-repeat;
+	background: url(../img/header2.jpg) center center no-repeat;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
@@ -333,7 +333,7 @@ p.gallery-text {
 	display: table;
 	width: 100%;
 	padding: 0;
-	background: url(../img/roadmap.png) center center no-repeat;
+	background: url(../img/roadmap.jpg) center center no-repeat;
 
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
