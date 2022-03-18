@@ -109,27 +109,28 @@ hr {
 	padding: 15px;
 	transition: all 0.8s;
 }
+
 #menu.navbar-default {
-	background-color: #fff;
+	background-color: #1f1c21;
 	border-color: rgba(231, 231, 231, 0);
-	box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
 }
 #menu a.navbar-brand {
-	font-family: "Raleway", sans-serif;
+	font-family: "Open Sans", sans-serif;
 	font-size: 24px;
 	font-weight: 700;
-	color: #333;
+	color: white;
 	text-transform: uppercase;
 }
 #menu.navbar-default .navbar-nav > li > a {
-	font-family: "Lato", sans-serif;
+	font-family: "Open Sans", sans-serif;
 	text-transform: uppercase;
-	color: #555;
-	font-size: 15px;
-	font-weight: 400;
+	color: rgb(133, 133, 133);
+	font-size: 20px;
+	font-weight: 800;
 	padding: 8px 2px;
 	border-radius: 0;
 	margin: 9px 20px 0;
+	text-align: left;
 }
 #menu.navbar-default .navbar-nav > li > a:after {
 	display: block;
@@ -272,6 +273,9 @@ a:focus,
 	-ms-transform: translateY(-110%);
 	transform: translateY(-110%);
 }
+.icon-nav {
+	height: 50px;
+}
 .play-now {
 	position: absolute;
 	font-family: "Open Sans";
@@ -305,7 +309,7 @@ a:focus,
 	/* background: rgba(0, 0, 0, 0.2); */
 }
 .changelog {
-	margin: 100px 0 100px 0;
+	margin: 200px 0 40px 0;
 }
 .gallery-text {
 	font-family: "Open Sans";
