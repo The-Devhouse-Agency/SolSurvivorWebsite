@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.1412a9a5.chunk.css",
-    "main.js": "/static/js/main.594341bb.chunk.js",
-    "main.js.map": "/static/js/main.594341bb.chunk.js.map",
+    "main.js": "/static/js/main.a8d40768.chunk.js",
+    "main.js.map": "/static/js/main.a8d40768.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.cabddd2e.js",
     "runtime-main.js.map": "/static/js/runtime-main.cabddd2e.js.map",
     "static/js/2.00e8e6ab.chunk.js": "/static/js/2.00e8e6ab.chunk.js",
@@ -16,7 +16,7 @@
     "static/media/Group8.1cb2cec4.svg": "/static/media/Group8.1cb2cec4.svg",
     "static/media/Line1.b9341efe.svg": "/static/media/Line1.b9341efe.svg",
     "static/media/discord.9b29b433.svg": "/static/media/discord.9b29b433.svg",
-    "static/media/logo1.77e3af84.png": "/static/media/logo1.77e3af84.png",
+    "static/media/logo1.750f1286.png": "/static/media/logo1.750f1286.png",
     "static/media/logo2.4617e9b9.png": "/static/media/logo2.4617e9b9.png",
     "static/media/trailer.ea08798b.mp4": "/static/media/trailer.ea08798b.mp4",
     "static/media/twitter.bbf9e476.svg": "/static/media/twitter.bbf9e476.svg",
@@ -26,6 +26,6 @@
     "static/js/runtime-main.cabddd2e.js",
     "static/js/2.00e8e6ab.chunk.js",
     "static/css/main.1412a9a5.chunk.css",
-    "static/js/main.594341bb.chunk.js"
+    "static/js/main.a8d40768.chunk.js"
   ]
 }
