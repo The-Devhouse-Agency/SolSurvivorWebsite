@@ -36,7 +36,6 @@ const BackgroundVideo = ({ videoSource, children }) => {
 				>
 					PLAY NOW
 				</a>
-				<br />
 				<a
 					href="https://ssurvivor.taiyorobotics.com/"
 					rel="noopener noreferrer"

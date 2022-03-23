@@ -903,4 +903,18 @@ label {
 	header .intro-text {
 		padding-top: 150px;
 	}
+	.play-now {
+		position: absolute;
+		font-family: "Open Sans";
+		width: 40%;
+		top: 92.5%;
+		left: 31%;
+	}
+	.mint {
+		position: absolute;
+		font-family: "Open Sans";
+		width: 40%;
+		top: 106.5%;
+		left: 31%;
+	}
 }
