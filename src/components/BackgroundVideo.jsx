@@ -36,6 +36,15 @@ const BackgroundVideo = ({ videoSource, children }) => {
 				>
 					PLAY NOW
 				</a>
+				<br />
+				<a
+					href="https://ssurvivor.taiyorobotics.com/"
+					rel="noopener noreferrer"
+					target="_blank"
+					className="btn btn-primary mint"
+				>
+					MINT
+				</a>
 
 				<img src={Logo} className="img-responsive logo" alt="Sol Survivor" />
 			</div>
