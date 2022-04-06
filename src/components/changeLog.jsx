@@ -96,6 +96,70 @@ export const ChangeLog = (props) => {
 					</div>
 				</div>
 			</div>
+
+			<div className="changelog">
+				<div className="container">
+					<div class="row justify-content-md-center">
+						<div class="col-md-12 col-xs-12 ">
+							<h1>Sol Survivor - 4.4.22</h1>
+							<br />
+							<p className="feature-text">
+								<strong>Posted: </strong>April 4, 2022
+							</p>
+							<br />
+							<p className="feature-text">
+								A new update is available for Sol Survivor that addresses some
+								issues that have occurred since the release of 4.4.22.
+							</p>
+							<br />
+							<p className="feature-text">
+								Please document any bugs you find in the Discord server!
+							</p>
+							<br />
+							<br />
+						</div>
+					</div>
+				</div>
+				<div className="container">
+					<div class="row justify-content-md-center">
+						<div class="col-md-112 col-xs-12">
+							<h3 className="feature-text">Fixes:</h3>
+							<ul>
+								<li>
+									<p className="feature-text">
+										{" "}
+										• Added objectives panel and text.
+									</p>
+								</li>
+								<li>
+									<p className="feature-text">
+										{" "}
+										• Fixed boss logic for Windows builds.
+									</p>
+								</li>
+								<li>
+									<p className="feature-text">
+										{" "}
+										• Removed screen shake on speakers objective.
+									</p>
+								</li>
+								<li>
+									<p className="feature-text"> • Added dog bark over radio.</p>
+								</li>
+								<li>
+									<p className="feature-text"> • Added updated map texture.</p>
+								</li>
+								<li>
+									<p className="feature-text">
+										{" "}
+										• Added music loop to endless mode.
+									</p>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
 		</>
 	);
 };
