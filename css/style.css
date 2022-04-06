@@ -194,6 +194,13 @@ hr {
 	margin-left: -30px;
 	left: 50%;
 }
+.game-wrapper {
+	height: 100vh;
+	display: flex;
+	margin-top: 81px;
+	align-items: center;
+	justify-content: center;
+}
 .section-title p {
 	font-size: 18px;
 }
@@ -280,19 +287,20 @@ a:focus,
 	position: absolute;
 	font-family: "Open Sans";
 	width: 15%;
-	top: 97.5%;
+	top: 94.5%;
 	left: 31%;
 	-webkit-transform: translateY(-190%);
 	-moz-transform: translateY(-190%);
 	-ms-transform: translateY(-190%);
 	transform: translateY(-190%);
-	padding: 16px 32px;
+	padding: 12px 32px;
 	text-align: center;
 	text-decoration: none;
 	font-weight: 800;
-	display: inline-block;
+	display: flex;
 	font-size: 16px;
 	border-radius: 0;
+	justify-content: center;
 	margin: 4px 2px;
 	transition-duration: 0.4s;
 	cursor: pointer;
@@ -304,17 +312,47 @@ a:focus,
 	background-color: #5896e7;
 	color: black;
 }
-.mint {
+.play-now-public {
 	position: absolute;
 	font-family: "Open Sans";
 	width: 15%;
-	top: 97.5%;
+	top: 94.5%;
 	right: 31%;
 	-webkit-transform: translateY(-190%);
 	-moz-transform: translateY(-190%);
 	-ms-transform: translateY(-190%);
 	transform: translateY(-190%);
-	padding: 16px 32px;
+	padding: 12px 32px;
+	text-align: center;
+	text-decoration: none;
+	font-weight: 800;
+	display: flex;
+	font-size: 16px;
+	border-radius: 0;
+	justify-content: center;
+	margin: 4px 2px;
+	transition-duration: 0.4s;
+	cursor: pointer;
+	border: none;
+	background-color: #3470be;
+	color: white;
+}
+.play-now-public:hover {
+	background-color: #5896e7;
+	color: black;
+}
+.mint {
+	position: absolute;
+	font-family: "Open Sans";
+	width: 15%;
+	top: 102.5%;
+	right: 42.5%;
+
+	-webkit-transform: translateY(-190%);
+	-moz-transform: translateY(-190%);
+	-ms-transform: translateY(-190%);
+	transform: translateY(-190%);
+	padding: 12px 32px;
 	text-align: center;
 	text-decoration: none;
 	font-weight: 800;
@@ -823,6 +861,34 @@ label {
 #footer a:hover {
 	border-bottom: 2px solid #608dfd;
 }
+@media only screen and (min-device-width: 768px) and (max-device-width: 1028px) {
+	.play-now {
+		position: absolute;
+		font-family: "Open Sans";
+		width: 20%;
+		font-size: 12px;
+		top: 103.5%;
+		left: 5%;
+	}
+	.play-now-public {
+		position: absolute;
+		font-family: "Open Sans";
+		width: 20%;
+		font-size: 12px;
+		top: 103.5%;
+		left: 40%;
+	}
+
+	.mint {
+		position: absolute;
+		font-family: "Open Sans";
+		font-size: 12px;
+		width: 20%;
+		top: 103.5%;
+		left: 75%;
+	}
+	/* Styles */
+}
 
 @media (max-width: 767px) {
 	#about img {
@@ -907,14 +973,25 @@ label {
 		position: absolute;
 		font-family: "Open Sans";
 		width: 40%;
-		top: 92.5%;
+		font-size: 12px;
+		top: 87.5%;
 		left: 31%;
 	}
-	.mint {
+	.play-now-public {
 		position: absolute;
 		font-family: "Open Sans";
 		width: 40%;
-		top: 106.5%;
+		font-size: 12px;
+		top: 95.5%;
+		left: 31%;
+	}
+
+	.mint {
+		position: absolute;
+		font-family: "Open Sans";
+		font-size: 12px;
+		width: 40%;
+		top: 103.5%;
 		left: 31%;
 	}
 }
