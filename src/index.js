@@ -4,6 +4,7 @@ import "./index.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import App from "./pages/App";
 import Updates from "./pages/Updates";
+import PublicDemo from "./pages/PublicDemo";
 import * as serviceWorker from "./serviceWorker";
 
 ReactDOM.render(
@@ -12,6 +13,7 @@ ReactDOM.render(
 			<Routes>
 				<Route path="/" element={<App />} />
 				<Route path="/updates" element={<Updates />} />
+				<Route path="/public-demo" element={<PublicDemo />} />
 			</Routes>
 		</BrowserRouter>
 	</React.StrictMode>,

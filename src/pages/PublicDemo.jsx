@@ -1,5 +1,5 @@
 import { Contact } from "../components/contact";
-import { ChangeLog } from "../components/changeLog";
+import { GameWrapper } from "../components/gameWrapper";
 import { Navigation } from "../components/navigation";
 import SmoothScroll from "smooth-scroll";
 import "./App.css";
@@ -13,7 +13,7 @@ const Updates = () => {
 	return (
 		<div>
 			<Navigation />
-			<ChangeLog />
+			<GameWrapper />
 			<Contact />
 		</div>
 	);

@@ -1,6 +1,6 @@
 import React from "react";
-import VideoSource from "../images/trailer.mp4";
 import Logo from "../images/logo1.png";
+import { Link } from "react-router-dom";
 import Poster from "../images/videoPoster.PNG";
 const BackgroundVideo = ({ videoSource, children }) => {
 	// const video = React.useRef(null);
@@ -34,8 +34,11 @@ const BackgroundVideo = ({ videoSource, children }) => {
 					target="_blank"
 					className="btn btn-primary play-now"
 				>
-					PLAY NOW
+					HOLDERS ONLY DEMO
 				</a>
+				<Link to="/public-demo" className="btn btn-primary play-now-public">
+					PUBLIC DEMO
+				</Link>
 				<a
 					href="https://ssurvivor.taiyorobotics.com/"
 					rel="noopener noreferrer"
