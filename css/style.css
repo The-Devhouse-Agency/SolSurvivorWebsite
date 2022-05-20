@@ -344,9 +344,9 @@ a:focus,
 .mint {
 	position: absolute;
 	font-family: "Open Sans";
-	width: 15%;
-	top: 102.5%;
-	right: 42.5%;
+	width: 18%;
+	top: 98.5%;
+	right: 41.5%;
 
 	-webkit-transform: translateY(-190%);
 	-moz-transform: translateY(-190%);
@@ -389,7 +389,7 @@ p.gallery-text {
 	display: table;
 	width: 100%;
 	padding: 0;
-	background: url(../img/header2.jpg) center center no-repeat;
+	background: url(../img/museum2.png) center center no-repeat;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
@@ -399,7 +399,7 @@ p.gallery-text {
 	display: table;
 	width: 100%;
 	padding: 0;
-	background: url(../img/roadmap.jpg) center center no-repeat;
+	background: url(../img/Museum3.png) center center no-repeat;
 
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -990,8 +990,8 @@ label {
 		position: absolute;
 		font-family: "Open Sans";
 		font-size: 12px;
-		width: 40%;
-		top: 103.5%;
-		left: 31%;
+		width: 48%;
+		top: 96.5%;
+		left: 26%;
 	}
 }
