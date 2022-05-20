@@ -28,24 +28,13 @@ const BackgroundVideo = ({ videoSource, children }) => {
 					/>
 					Your browser does not support the video tag.
 				</video>
+
 				<a
-					href="https://serlist.solsurvivor.co/"
-					rel="noopener noreferrer"
-					target="_blank"
-					className="btn btn-primary play-now"
-				>
-					HOLDERS ONLY DEMO
-				</a>
-				<Link to="/public-demo" className="btn btn-primary play-now-public">
-					PUBLIC DEMO
-				</Link>
-				<a
-					href="https://ssurvivor.taiyorobotics.com/"
-					rel="noopener noreferrer"
-					target="_blank"
+					href="https://sol-survivor.s3.us-east-2.amazonaws.com/Sol+Build+5-19-22.zip"
+					download
 					className="btn btn-primary mint"
 				>
-					MINT
+					DOWNLOAD DEMO
 				</a>
 
 				<img src={Logo} className="img-responsive logo" alt="Sol Survivor" />

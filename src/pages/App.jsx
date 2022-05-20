@@ -29,7 +29,7 @@ const App = () => {
 			<BackgroundVideo />
 			<Header />
 			<Gallery data={landingPageData.Gallery} />
-			<Features />
+
 			<RoadmapLayout />
 			<Contact />
 		</div>

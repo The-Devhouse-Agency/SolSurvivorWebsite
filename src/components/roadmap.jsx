@@ -49,45 +49,16 @@ export const Roadmap = (props) => {
 								<div className="row timeline">
 									<Ellipse className="svg" />
 								</div>
-								<div className="row timeline">
-									<Line />
-								</div>
 							</div>
 
 							<div class="col-md-5">
-								<h3 className="timeline-text">
-									Sol Survivor Comic Series, Game Updates, Merch, Branding
-								</h3>
+								<h3 className="timeline-text">The Final Game</h3>
 
 								<p className="timeline-text">
-									{" "}
-									Game Updates: As mentioned above, the Sol Survivor beta will
-									be continuously updated. In Q2 after the initial gamified bug
-									bounty, we will begin introducing new game content and
-									features. Some of these updates will include: New Weapons,
-									Features, Maps, Companions Sol Survivor: The Comic
-								</p>
-							</div>
-						</div>
-
-						<div class="row justify-content-md-center">
-							<div id="mobile-roadmap2" class="col-md-5 ">
-								<h3 className="timeline-text" style={{ textAlign: "right" }}>
-									The Final Game
-								</h3>
-
-								<p className="timeline-text" style={{ textAlign: "right" }}>
-									{" "}
 									We intend to have the full Sol Survivor game, created with the
 									community, full ready for release on Steam... and then what?
 								</p>
 							</div>
-							<div class="col-md-2 col-xs-2 justify-content-center">
-								<div className="row timeline">
-									<Ellipse className="svg" id="mobile-final" />
-								</div>
-							</div>
-							<div class="col-md-5 col-xs-0"></div>
 						</div>
 					</div>
 				</div>

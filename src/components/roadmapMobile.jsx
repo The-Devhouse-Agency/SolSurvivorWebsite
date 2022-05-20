@@ -46,34 +46,6 @@ export const RoadmapMobile = (props) => {
 									<Ellipse style={{ zIndex: "2" }} className="svg" />
 								</div>
 								<br />
-								<div className="row timeline">
-									<Line className="svg" />
-								</div>
-							</div>
-
-							<div class="col-md-10 col-xs-8 ">
-								<h3 className="feature-text">
-									Sol Survivor Comic Series, Game Updates, Merch, Branding
-								</h3>
-								<p className="feature-text">
-									Game Updates: As mentioned above, the Sol Survivor beta will
-									be continuously updated. In Q2 after the initial gamified bug
-									bounty, we will begin introducing new game content and
-									features. Some of these updates will include: New Weapons,
-									Features, Maps, Companions Sol Survivor: The Comic.{" "}
-								</p>
-							</div>
-						</div>
-
-						<div
-							class="row justify-content-md-center"
-							style={{ marginTop: "10px" }}
-						>
-							<div class="col-md-2 col-xs-4 ">
-								<div className="row timeline">
-									<Ellipse style={{ zIndex: "2" }} className="svg" />
-								</div>
-								<br />
 							</div>
 
 							<div class="col-md-10 col-xs-8 ">

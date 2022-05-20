@@ -109,7 +109,7 @@ export const ChangeLog = (props) => {
 							<br />
 							<p className="feature-text">
 								A new update is available for Sol Survivor that addresses some
-								issues that have occurred since the release of 4.4.22.
+								issues that have occurred since the release of 3.15.22.
 							</p>
 							<br />
 							<p className="feature-text">
@@ -154,6 +154,66 @@ export const ChangeLog = (props) => {
 										{" "}
 										• Added music loop to endless mode.
 									</p>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div className="changelog">
+				<div className="container">
+					<div class="row justify-content-md-center">
+						<div class="col-md-12 col-xs-12 ">
+							<h1>Sol Survivor - 5.19.22</h1>
+							<br />
+							<p className="feature-text">
+								<strong>Posted: </strong>May 19, 2022
+							</p>
+							<br />
+							<p className="feature-text">
+								A new update is available for Sol Survivor that addresses some
+								issues that have occurred since the release of 4.4.22.
+							</p>
+							<br />
+							<p className="feature-text">
+								Please document any bugs you find in the Discord server!
+							</p>
+							<br />
+							<br />
+						</div>
+					</div>
+				</div>
+				<div className="container">
+					<div class="row justify-content-md-center">
+						<div class="col-md-112 col-xs-12">
+							<h3 className="feature-text">Fixes:</h3>
+							<ul>
+								<li>
+									<p className="feature-text"> • Escape mode sequence added.</p>
+								</li>
+								<li>
+									<p className="feature-text"> • Horde mode fixes.</p>
+								</li>
+								<li>
+									<p className="feature-text"> • Garage night lighting.</p>
+								</li>
+								<li>
+									<p className="feature-text"> • Mummy boss balancing.</p>
+								</li>
+								<li>
+									<p className="feature-text"> • Zombie logic fixes.</p>
+								</li>
+								<li>
+									<p className="feature-text"> • Level 2 complete.</p>
+								</li>
+								<li>
+									<p className="feature-text"> • Helicopter cinematic added.</p>
+								</li>
+								<li>
+									<p className="feature-text"> • Level transition bug fixes.</p>
+								</li>
+								<li>
+									<p className="feature-text"> • Skyboxes added.</p>
 								</li>
 							</ul>
 						</div>
