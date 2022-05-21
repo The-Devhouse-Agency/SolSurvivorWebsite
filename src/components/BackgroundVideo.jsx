@@ -30,7 +30,7 @@ const BackgroundVideo = ({ videoSource, children }) => {
 				</video>
 
 				<a
-					href="https://sol-survivor.s3.us-east-2.amazonaws.com/Sol+Build+5-19-22.zip"
+					href="https://sol-survivor.s3.us-east-2.amazonaws.com/Sol+Build+5-20-22.zip"
 					download
 					className="btn btn-primary mint"
 				>
