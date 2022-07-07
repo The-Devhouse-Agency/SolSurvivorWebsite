@@ -29,14 +29,21 @@ const BackgroundVideo = ({ videoSource, children }) => {
 					Your browser does not support the video tag.
 				</video>
 
-				<a
+				{/* 
 					href="https://sol-survivor.s3.us-east-2.amazonaws.com/Sol+Build+5-20-22.zip"
 					download
 					className="btn btn-primary mint"
 				>
 					DOWNLOAD DEMO
+				</a> */}
+				<a
+					href="http://gofile.me/4wneC/1QM8un54k"
+					rel="noreferrer"
+					// download
+					className="btn btn-primary mint"
+				>
+					DOWNLOAD DEMO
 				</a>
-
 				<img src={Logo} className="img-responsive logo" alt="Sol Survivor" />
 			</div>
 		</>
